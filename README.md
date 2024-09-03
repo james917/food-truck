@@ -5,11 +5,12 @@ Pull Down main branch of code and run the following commands
 
 Then run `npm start`
 
-After that navigate to `http://localhost:9090`.
+After that navigate to  [http://localhost:9090](http://localhost:9090).
 The page will load and click the "Query Server" button which will take you to 
-`https://studio.apollographql.com/sandbox/explorer`
+[https://studio.apollographql.com/sandbox/explorer](https://studio.apollographql.com/sandbox/explorer).
 
-Run the following example query 
+## un the following example query 
+```
 {
   foodtrucks {
     id
@@ -20,7 +21,10 @@ Run the following example query
   }
 }
 
-The return response should display with the data returned from csv
+```
+
+## The return response should display with the data returned from csv
+```
 {
   "data": { 
     "foodtrucks": [
@@ -36,3 +40,4 @@ The return response should display with the data returned from csv
 
   }
 }
+```
