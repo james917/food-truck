@@ -16,23 +16,6 @@ const resolvers = {
       },
     },
 
-    // Mutation: {
-    //   availableFoodTruck: (parent, args) => {
-    //     const newFoodTruck = {
-    //       id: foodtrucks.length + 1,
-    //       applicant: args.applicant,
-    //       facilityType: args.facilityType,
-    //       locationDescription: args.locationDescription,
-    //     };
-    //     foodtrucks.push(newFoodTruck);
-    //     return newFoodTruck;
-    //   },
-    //   enroll: (parent, args) => {
-    //     const foodTruckToEnroll = foodtrucks.find((foodtruck) => foodtruck.id === Number(args.id));
-    //     // Implement enrollment logic here
-    //     return foodTruckToEnroll;
-    //   },
-    // },
 
   }
 
